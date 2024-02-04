@@ -3,6 +3,7 @@
 /*구분하기 쉽도록 색상을 넣습니다*/
 ul {
   border: 4px solid #e8cca9;
+  display: flex;
 }
 ul li {
   background-color: #efefef;

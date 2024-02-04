@@ -5,41 +5,80 @@
     <title>Wedding Party Invitation</title>
   </head>
   <body>
-    【이미지 : Welcome to Our Wedding Party】
-    Message
-    Date
-    Form
-    Scroll
-    【이미지 : 縦棒】
-    
-    Message
-    금번 카피조우와 카피코는
-    웨딩 파티를 개최하게 되었습니다.
-    바쁘시겠지만 부디 오셔서 축하해주시면 더없이 기쁘겠습니다.
-    참석 여부는 페이지 하단 폼을 통해 알려주실 수 있습니다.
-    【이미지 : 카피조우와 카피코】
-    
-    Save the Date
-    【이미지 : 飾り画像】
-     3023.8.8 Thu
-     Start 18:30-
+    <header>
+        【이미지 : Welcome to Our Wedding Party】
+        <img src="images/hero_text.png" alt="백그라운드 텍스트 이미지">
+        Message
+        Date
+        Form
+        Scroll
+        【이미지 : 縦棒】
+    </header>
+    <main>
+        <article>
+            <section>
+                <h2>Message</h2>
+                <p>금번 카피조우와 카피코는
+                    웨딩 파티를 개최하게 되었습니다.
+                </p>
+                <p>
+                    바쁘시겠지만 부디 오셔서 축하해주시면 더없이 기쁘겠습니다.
+                    참석 여부는 페이지 하단 폼을 통해 알려주실 수 있습니다.
+                </p>
+                <img src="images/message_img.png" alt="결혼 사진"/>
+                <p>【이미지 : 카피조우와 카피코】</p>
+            </section>
+            <section>
+                <h2>Save the Date</h2>
+                <img src="images/date_img.jpg" alt="데이트 사진">
+                <p>3023.8.8 Thu
+                    Start 18:30-</p>
+                <p>Access
+                    나뭇잎길 1-2-3
+                    Ristorante Capita에서
+                    02-XXXX-XXXX
+                </p>
+                <!-- 以下フォーム部分は本書のレッスン内で行います -->
+                <h2>RSVP</h2>
+                <p>
+                    <input type="radio" name="appearance" id="yes-apper"><label for="yes-apper">참석 </label>
+                    <input type="radio" name="appearance" id="no-aaper"><label for="no-aaper">불참 </label>
+                </p>
+                <p>
+                    <label for="name">성함</label><br><input type="text" name="name" id="name">
+                    <label for="email">메일 주소</label><br><input type="email" name="email" id="email">
+                    <label for="type">자신의 유형</label>
+                    <br>
+                <div>
+                    <select name="type" id="type">
+                        <option value="">초식 동물</option>
+                        <option value="">육식 동물</option>
+                        <option value="">인간</option>
+                    </select>
+                </div>
+                <div>
+                    <label>
+                        알레르기가 있는 음식<br>
+                        <input type="checkbox"> 달걀
+                        <input type="checkbox"> 우유
+                        <input type="checkbox"> 밀
+                        <input type="checkbox"> 대두
+                    </label>
+                </div>
+                <div>
+                    <h3>메시지</h3>
+                    <textarea>
 
-    Access
-    나뭇잎길 1-2-3
-    Ristorante Capita에서
-    02-XXXX-XXXX
-    
-    <!-- 以下フォーム部分は本書のレッスン内で行います -->
-    RSVP
-    참석 불참
-    성함
-    메일 주소
-    자신의 유형 초식 동물 육식 동물 인간
-    알레르기가 있는 음식 달걀 우유 밀 대두
-    메시지
-    Send
-    <!-- ↑ ここまでフォームです ↑ -->
-
-    © Capyzou & Capyco
+                    </textarea>
+                </div>
+                Send
+                </p>
+                <!-- ↑ ここまでフォームです ↑ -->
+            </section>
+        </article>
+    </main>
+    <footer>
+        © Capyzou & Capyco
+    </footer>
   </body>
 </html>
